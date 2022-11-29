@@ -7,8 +7,14 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="preview">
-        yessasdsadd
+    <div class="preview"></div>
+    <div class="background">
+        <div class="Constellation"></div>
+        <div class="modal">
+            <div class="back">
+                <img src="img/system/back.svg" alt="">
+            </div>
+        </div>
     </div>
     <a-scene>
       <a-camera>
@@ -42,7 +48,7 @@
       <a-entity gltf-model="#home">
       </a-entity>
       <a-entity gltf-model="#ball" rotation="20 0 0">
-            <a-entity id="star" gltf-model="#star1" color="#4CC3D9"
+            <a-entity id="star" gltf-model="#star1"
              animation="property:rotation;
                         to: 0 360 0;
                         dur:250000;
