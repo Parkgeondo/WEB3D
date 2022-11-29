@@ -1,5 +1,6 @@
 let hover = false;
-let click = false;
+let click = true;
+modal();
 
 $(function () {
     show()
@@ -13,6 +14,8 @@ $(function () {
         star1.setAttribute("animation","dur:100000000")
         hover = true;
         show();
+        $('.name').text('sogeun sogeun')
+        $('.Dname').text('김채원')
     })
     star1.addEventListener('mouseleave',function(){
         star1.setAttribute("animation","dur:250000;")
